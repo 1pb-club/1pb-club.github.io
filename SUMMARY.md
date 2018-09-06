@@ -1,4 +1,7 @@
-# Table of contents
+# 目录
 
-* [能力矩阵](README.md)
+* [1pb.org](README.md)
+* [信息公开](disclosure.md)
+  * [成员信息](disclosure/members.md)
+
 
