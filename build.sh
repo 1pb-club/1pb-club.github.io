@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -o errexit -o nounset
-TOKEN="3dd3654e6d3c998d006f57f8c642bb6754317112"
 TRAVIS_BRANCH=master
 if [ "$TRAVIS_BRANCH" != "master" ]
 then 
@@ -19,7 +18,7 @@ then
 
 		git config user.email "songtianyi630@163.com"
 
-		git remote add upstream "https://$TOKEN@github.com/1pb-org/1pb-org.github.io.git"
+		git remote add upstream https://songtianyi:$TOKEN@github.com/1pb-org/1pb-org.github.io.git
 
 		git fetch upstream
 
